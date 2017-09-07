@@ -1,0 +1,20 @@
+version: "2"
+services:
+    install:
+        image: node:6
+        working_dir: /usr/src
+        volumes:
+            - ./:/usr/src
+        command: npm install
+    question1:
+        image: node:6
+        working_dir: /usr/src
+        volumes:
+            - ./:/usr/src
+        command: node question1.js
+    question2:
+        image: node:6
+        working_dir: /usr/src
+        volumes:
+            - ./:/usr/src
+        command: node question2.js
