@@ -28,7 +28,7 @@ This project requires Node 6 or above.
     * [Mac](https://docs.docker.com/docker-for-mac/install/)
     * [Windows](https://docs.docker.com/docker-for-windows/) 
     * [Ubuntu/Other Linux Distros](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
-* If using Ubuntu/Linux, ensure [Docker Compose](https://docs.docker.com/compose/install/) is installed. These are already installed if using Docker for Mac, Docker for Windows, or Docker Toolbox.
+* If using Ubuntu/Linux, ensure [Docker Compose](https://docs.docker.com/compose/install/) is installed. This is already installed if using Docker for Mac, Docker for Windows, or Docker Toolbox.
 * Install dependencies:
 
     ```bash
